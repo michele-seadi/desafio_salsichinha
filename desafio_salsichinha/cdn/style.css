@@ -1,0 +1,86 @@
+body {
+    background-color: #E8DAB2;
+    font-family: "Raleway", sans-serif;
+}
+
+/*.................header.............*/
+img {
+    width: 370px;
+    border-radius: 4px;
+}
+
+header {
+    width: auto;
+    height: 500px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 400px;
+    position: relative;
+}
+
+.bem-vindo {
+    font-size: 26px;
+    font-style: italic;
+}
+
+.petshop-salsichinha {
+    font-size: 52px;
+}
+
+.titulo {         
+    height: 192px;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+}
+
+.imagem-salsichinha {
+    width: 370px;
+    height: 192px;
+    text-align: right;
+    position: absolute;
+    right: 2px;
+    bottom: 0px;
+}
+
+/*......................article..............*/
+article{
+    margin: auto;
+    padding: 34px 24px 10px 24px ;
+    background-color: aliceblue;
+    box-shadow: 0 0 1em #090909;
+    width: 800px;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 4px;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    margin-top: 24px;
+    line-height: 24px;
+}
+
+.imagem-cachorrinho {
+    width: calc(100% - 30px);
+}
+iframe {
+    width: calc(100% - 30px);
+    height: 430px;
+}
+/* -------------------------Footer--------------------------------------*/
+footer {
+width: 100%;
+height: 50px;
+padding: 16px;
+color: #35B1D2;
+text-align: right;
+background-color: #090909;
+position: sticky;
+}
